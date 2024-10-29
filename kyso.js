@@ -1,3 +1,19 @@
+// Chương trình tính tổng 2 ký số
+/**
+ * Đầu vào
+ * - Khai báo biến btnMoney và liên kết với phần tử id btnMoney bên file html
+ * - Khai báo biến money và liên kết với phần tử id money bên file html
+ * - parseFloat là chuyển đổi giá trị đầu vào chuỗi -> float
+ * Xử lý
+ * - Khai báo biến MoneyChange = 0
+ * - Tính MoneyChange = money * 23500
+ * - Khai báo biến formattedMoney để số tiền hiển thị đẹp hơn
+ * Đầu ra
+ * - Khai báo biến result
+ * - Log biến result
+ * - Khai báo biến pResult và liên kết với phần từ id pMoney và in ra kết quả
+ * - Hiển thị kết quả
+ */
 let btnTong = document.getElementById("btnTong");
 btnTong.onclick = function () {
   let plus = parseInt(document.getElementById("plus").value);
