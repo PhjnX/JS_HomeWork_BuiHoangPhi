@@ -1,0 +1,19 @@
+.num_style {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+}
+
+.result_style {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: greenyellow;
+  margin-top: 10px;
+}
+
+h3 {
+  color: coral;
+}
